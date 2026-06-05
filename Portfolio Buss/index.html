@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>YourName — Web Developer Tirana</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">Your<span>Name</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+      </ul>
+      <div class="nav-toggle" id="navToggle">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="hero-bg-num">01</div>
+
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            Available for new projects
+          </div>
+          <h1 class="hero-title">
+            Building websites<br>
+            that <em>work</em> for<br>
+            your business
+          </h1>
+          <p class="hero-sub">
+            I design and develop professional websites for businesses in Tirana and beyond — fast, modern, and built to grow with you.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="btn-primary">View My Work →</a>
+            <a href="#contact" class="btn-outline">Start a Project</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-card">
+            <div class="hero-card-bar">
+              <div class="dot dot-r"></div>
+              <div class="dot dot-y"></div>
+              <div class="dot dot-g"></div>
+              <span class="card-title-bar">portfolio.js</span>
+            </div>
+            <div class="hero-card-body">
+              <div class="code-line"><span class="comment">// crafting your digital presence</span></div>
+              <div class="code-line"><span class="kw">const</span> <span class="fn">website</span> = {</div>
+              <div class="code-line">&nbsp;&nbsp;<span class="prop">design</span>: <span class="str">"modern & clean"</span>,</div>
+              <div class="code-line">&nbsp;&nbsp;<span class="prop">performance</span>: <span class="num">98</span> <span class="comment">// PageSpeed</span></div>
+              <div class="code-line">&nbsp;&nbsp;<span class="prop">mobile</span>: <span class="str">"fully responsive"</span>,</div>
+              <div class="code-line">&nbsp;&nbsp;<span class="prop">seo</span>: <span class="str">"Google-ready"</span>,</div>
+              <div class="code-line">&nbsp;&nbsp;<span class="prop">result</span>: <span class="fn">moreClients</span>()</div>
+              <div class="code-line">};</div>
+            </div>
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <strong>X+</strong>
+                <span>Projects</span>
+              </div>
+              <div class="hero-stat">
+                <strong>X+</strong>
+                <span>Clients</span>
+              </div>
+              <div class="hero-stat">
+                <strong>X yr</strong>
+                <span>Experience</span>
+              </div>
+            </div>
+          </div>
+          <div class="floating-tag floating-tag-1">
+            <div class="tag-icon">🚀</div>
+            Delivered on time
+          </div>
+          <div class="floating-tag floating-tag-2">
+            <div class="tag-icon">📍</div>
+            Tirana-based
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-ticker">
+      <div class="ticker-inner" id="ticker"></div>
+    </div>
+  </section>
+
+  <!-- ── CLIENTS STRIP ── -->
+  <div id="clients">
+    <div class="container">
+      <p class="clients-label">Trusted by businesses in Tirana & beyond</p>
+      <div class="clients-logos">
+        <span class="client-logo">Client Name</span>
+        <span class="client-logo">Client Name</span>
+        <span class="client-logo">Client Name</span>
+        <span class="client-logo">Client Name</span>
+        <span class="client-logo">Client Name</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── SERVICES ── -->
+  <section id="services">
+    <div class="container">
+      <div class="services-header reveal">
+        <div>
+          <div class="section-eyebrow">What I Do</div>
+          <h2 class="section-title">Services built around your goals</h2>
+        </div>
+        <p class="section-desc">
+          From a simple landing page to a full e-commerce platform — I cover the full cycle, from design to launch and ongoing support.
+        </p>
+      </div>
+      <div class="services-grid reveal">
+        <div class="service-card">
+          <span class="service-num">01</span>
+          <span class="service-icon">🎨</span>
+          <div class="service-name">Web Design</div>
+          <p class="service-desc">Clean, professional designs tailored to your brand and audience — first impressions that convert visitors into customers.</p>
+          <span class="service-arrow">↗</span>
+        </div>
+        <div class="service-card">
+          <span class="service-num">02</span>
+          <span class="service-icon">⚡</span>
+          <div class="service-name">Web Development</div>
+          <p class="service-desc">Fast, responsive, and SEO-friendly websites built with HTML, CSS & JavaScript — or your preferred platform.</p>
+          <span class="service-arrow">↗</span>
+        </div>
+        <div class="service-card">
+          <span class="service-num">03</span>
+          <span class="service-icon">🛒</span>
+          <div class="service-name">E-Commerce</div>
+          <p class="service-desc">Online stores that make it easy for your customers to find and buy — with secure payments and simple management.</p>
+          <span class="service-arrow">↗</span>
+        </div>
+        <div class="service-card">
+          <span class="service-num">04</span>
+          <span class="service-icon">🔧</span>
+          <div class="service-name">Maintenance</div>
+          <p class="service-desc">Ongoing updates, backups, security checks, and performance monitoring so your site always runs smoothly.</p>
+          <span class="service-arrow">↗</span>
+        </div>
+        <div class="service-card">
+          <span class="service-num">05</span>
+          <span class="service-icon">📱</span>
+          <div class="service-name">Mobile-First</div>
+          <p class="service-desc">Every site I build works perfectly on phones, tablets, and desktops — because most of your clients browse on mobile.</p>
+          <span class="service-arrow">↗</span>
+        </div>
+        <div class="service-card">
+          <span class="service-num">06</span>
+          <span class="service-icon">📈</span>
+          <div class="service-name">SEO & Speed</div>
+          <p class="service-desc">Optimized for Google and built for speed — so customers in Tirana and beyond can find you easily.</p>
+          <span class="service-arrow">↗</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WORK ── -->
+  <section id="work">
+    <div class="container">
+      <div class="work-header reveal">
+        <div>
+          <div class="section-eyebrow">Portfolio</div>
+          <h2 class="section-title">Selected work</h2>
+        </div>
+        <a href="#contact" class="btn-outline">Start your project →</a>
+      </div>
+      <div class="work-grid reveal">
+        <div class="work-card">
+          <div class="work-thumb">
+            <div class="work-tag">E-Commerce</div>
+            <div class="work-thumb-placeholder">
+              <div class="wt-icon">🖼️</div>
+              <span>Add screenshot here</span>
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-title">Project Title Here</div>
+            <div class="work-client">Client Name — Tirana, AL</div>
+            <a href="#" class="work-link">View project ↗</a>
+          </div>
+        </div>
+        <div class="work-card">
+          <div class="work-thumb">
+            <div class="work-tag">Business Website</div>
+            <div class="work-thumb-placeholder">
+              <div class="wt-icon">🖼️</div>
+              <span>Add screenshot here</span>
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-title">Project Title Here</div>
+            <div class="work-client">Client Name — Tirana, AL</div>
+            <a href="#" class="work-link">View project ↗</a>
+          </div>
+        </div>
+        <div class="work-card">
+          <div class="work-thumb">
+            <div class="work-tag">Landing Page</div>
+            <div class="work-thumb-placeholder">
+              <div class="wt-icon">🖼️</div>
+              <span>Add screenshot here</span>
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-title">Project Title Here</div>
+            <div class="work-client">Client Name — International</div>
+            <a href="#" class="work-link">View project ↗</a>
+          </div>
+        </div>
+        <div class="work-card">
+          <div class="work-thumb">
+            <div class="work-tag">Restaurant / Service</div>
+            <div class="work-thumb-placeholder">
+              <div class="wt-icon">🖼️</div>
+              <span>Add screenshot here</span>
+            </div>
+          </div>
+          <div class="work-info">
+            <div class="work-title">Project Title Here</div>
+            <div class="work-client">Client Name — Tirana, AL</div>
+            <a href="#" class="work-link">View project ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROCESS ── -->
+  <section id="process">
+    <div class="container">
+      <div class="process-header reveal">
+        <div>
+          <div class="section-eyebrow">How I Work</div>
+          <h2 class="section-title">A simple, clear process</h2>
+        </div>
+        <p class="section-desc">No jargon, no surprises. You'll know exactly what's happening at every step — from the first call to launch day.</p>
+      </div>
+      <div class="process-grid reveal">
+        <div class="process-step">
+          <span class="process-num">01</span>
+          <div class="process-name">Discovery</div>
+          <p class="process-desc">We talk about your business, goals, audience, and what you need. I ask questions, you share your vision.</p>
+        </div>
+        <div class="process-step">
+          <span class="process-num">02</span>
+          <div class="process-name">Design</div>
+          <p class="process-desc">I create a mockup of your site. You review it, give feedback, and we refine until it's perfect.</p>
+        </div>
+        <div class="process-step">
+          <span class="process-num">03</span>
+          <div class="process-name">Build</div>
+          <p class="process-desc">I develop your site with clean code, fast loading, and mobile-friendly layouts — tested on all devices.</p>
+        </div>
+        <div class="process-step">
+          <span class="process-num">04</span>
+          <div class="process-name">Launch & Support</div>
+          <p class="process-desc">We go live together. I handle hosting setup, domain, and stay available for updates and support.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-photo reveal">
+          <div class="about-photo-frame">
+            <div class="photo-placeholder">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="18" r="10" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M6 42c0-9.941 8.059-18 18-18s18 8.059 18 18" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              <span>Add your photo here</span>
+            </div>
+          </div>
+          <div class="about-accent-box">
+            <strong>X+ yr</strong>
+            <span>Experience</span>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <div class="section-eyebrow">About Me</div>
+          <h2 class="section-title">Your name,<br>web developer<br>based in Tirana</h2>
+          <p>Write a short paragraph about yourself here. Talk about your background, why you love building websites, and what makes you different. Keep it personal and real — Albanian clients appreciate knowing who they're working with.</p>
+          <p>You can mention specific experience, industries you've worked with in Albania, or your approach to client relationships. Keep it warm but professional.</p>
+          <div class="skills-list">
+            <span class="skill-pill">HTML & CSS</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">WordPress</span>
+            <span class="skill-pill">Figma</span>
+            <span class="skill-pill">Responsive Design</span>
+            <span class="skill-pill">SEO Basics</span>
+            <span class="skill-pill">WooCommerce</span>
+            <span class="skill-pill">Performance</span>
+          </div>
+          <a href="#contact" class="btn-primary">Let's Work Together →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS ── -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="reveal" style="text-align:center; max-width:520px; margin:0 auto;">
+        <div class="section-eyebrow" style="justify-content:center">Testimonials</div>
+        <h2 class="section-title">What clients say</h2>
+      </div>
+      <div class="testimonials-grid reveal">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Add a real client quote here. Something specific about results, the process, or how the website helped their business."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <div class="author-name">Client Name</div>
+              <div class="author-role">Business Type — Tirana</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Add another client quote here. Testimonials build trust, especially for Albanian clients who value word-of-mouth recommendations."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">B</div>
+            <div>
+              <div class="author-name">Client Name</div>
+              <div class="author-role">Business Type — Tirana</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"A third testimonial here. The more specific and genuine these are, the more they'll convert visitors into enquiries."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">C</div>
+            <div>
+              <div class="author-name">Client Name</div>
+              <div class="author-role">Business Type — International</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PRICING ── -->
+  <section id="pricing">
+    <div class="container">
+      <div class="pricing-header reveal">
+        <div class="section-eyebrow">Pricing</div>
+        <h2 class="section-title">Simple, transparent pricing</h2>
+        <p class="section-desc">No hidden costs. You know exactly what you pay for upfront. All prices in EUR.</p>
+      </div>
+      <div class="pricing-grid reveal">
+        <div class="pricing-card">
+          <div class="pricing-name">Starter</div>
+          <div class="pricing-price"><span class="pricing-currency">€</span>XXX</div>
+          <div class="pricing-period">one-time payment</div>
+          <p class="pricing-desc">Perfect for small businesses, freelancers, or anyone needing a clean online presence.</p>
+          <ul class="pricing-features">
+            <li class="pricing-feature">Up to 5 pages</li>
+            <li class="pricing-feature">Mobile responsive</li>
+            <li class="pricing-feature">Contact form</li>
+            <li class="pricing-feature">Basic SEO setup</li>
+            <li class="pricing-feature">14-day support after launch</li>
+          </ul>
+          <a href="#contact" class="btn-pricing">Get Started</a>
+        </div>
+        <div class="pricing-card featured">
+          <div class="pricing-badge">Most Popular</div>
+          <div class="pricing-name">Professional</div>
+          <div class="pricing-price"><span class="pricing-currency">€</span>XXX</div>
+          <div class="pricing-period">one-time payment</div>
+          <p class="pricing-desc">For growing businesses that need a complete, polished website with more features.</p>
+          <ul class="pricing-features">
+            <li class="pricing-feature">Up to 10 pages</li>
+            <li class="pricing-feature">Custom design</li>
+            <li class="pricing-feature">Google Maps, social links</li>
+            <li class="pricing-feature">SEO optimized</li>
+            <li class="pricing-feature">Speed optimization</li>
+            <li class="pricing-feature">30-day support after launch</li>
+          </ul>
+          <a href="#contact" class="btn-pricing">Get Started</a>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-name">E-Commerce</div>
+          <div class="pricing-price"><span class="pricing-currency">€</span>XXX</div>
+          <div class="pricing-period">one-time + monthly maintenance</div>
+          <p class="pricing-desc">Full online store with product pages, shopping cart, and payment integration.</p>
+          <ul class="pricing-features">
+            <li class="pricing-feature">Online store setup</li>
+            <li class="pricing-feature">Product catalogue</li>
+            <li class="pricing-feature">Payment integration</li>
+            <li class="pricing-feature">Order management</li>
+            <li class="pricing-feature">Full training included</li>
+          </ul>
+          <a href="#contact" class="btn-pricing">Get Started</a>
+        </div>
+      </div>
+      <p style="text-align:center; margin-top:28px; font-size:0.84rem; color:var(--ink-dim);">
+        Need something custom? <a href="#contact" style="color:var(--accent); font-weight:700; text-decoration:underline; text-underline-offset:3px;">Let's talk →</a>
+      </p>
+    </div>
+  </section>
+
+
+
+
+<!-- ── BOOKING SECTION ── -->
+
+<section id="contact" class="section-pad">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- LEFT: Info side -->
+      <div class="contact-info reveal">
+        <p class="section-label">Get in Touch</p>
+        <h2 class="section-title">Let's Work<br><em>Together</em></h2>
+        <p>Fill in the form with correct details and I'll get back to you as soon as possible.</p>
+
+        <div class="contact-detail">
+          <div class="contact-icon">✉</div>
+          <div>
+            <div class="contact-detail-label">Email</div>
+            <div class="contact-detail-value">your@email.com</div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon">📍</div>
+          <div>
+            <div class="contact-detail-label">Location</div>
+            <div class="contact-detail-value">Tirana, Albania</div>
+          </div>
+        </div>
+     
+
+        <!-- Book a Call — sits naturally after contact details -->
+        <button
+          onclick="openCal()"
+          style="
+            margin-top: 32px;
+            padding: 13px 28px;
+            background: transparent;
+            color: var(--ink);
+            border: 1px solid var(--border-2);
+            border-radius: 2px;
+            font-family: var(--sans);
+            font-size: 0.82rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background 0.2s, border-color 0.2s, color 0.2s;
+            width: 100%;
+          "
+          onmouseenter="this.style.background='var(--accent)';this.style.borderColor='var(--accent)';this.style.color='#fff'"
+          onmouseleave="this.style.background='transparent';this.style.borderColor='var(--border-2)';this.style.color='var(--ink)'"
+        >
+          Book a Call →
+        </button>
+  </div>
+      
+
+      <!-- RIGHT: Form side -->
+      <div class="contact-form reveal reveal-delay-2">
+        <form id="contactForm" novalidate>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required>
+              <small class="error" id="nameError" style="color:var(--accent);font-size:0.75rem;margin-top:4px;display:none;"></small>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+              <small class="error" id="emailError" style="color:var(--accent);font-size:0.75rem;margin-top:4px;display:none;"></small>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="title">Subject</label>
+            <input type="text" id="title" name="title" placeholder="What's this about?" required>
+            <small class="error" id="titleError" style="color:var(--accent);font-size:0.75rem;margin-top:4px;display:none;"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project…" required></textarea>
+            <small class="error" id="messageError" style="color:var(--accent);font-size:0.75rem;margin-top:4px;display:none;"></small>
+          </div>
+
+          <!-- Hidden timestamp field -->
+          <input type="hidden" name="time" value="">
+
+          <button type="submit" class="form-submit">Send Message →</button>
+
+          <p id="formLoading" style="display:none;margin-top:14px;font-size:0.85rem;color:var(--ink-soft);">⏳ Sending…</p>
+          <p id="formSuccess" style="display:none;margin-top:14px;font-size:0.85rem;font-weight:600;"></p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init({ publicKey: "OusWfByij908juGVr" });
+  })();
+</script>
+
+
+
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="nav-logo">Your<span>Name</span></span>
+          <p>Professional web design & development for businesses in Tirana and beyond. Let's build something great together.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="#services">Web Design</a>
+          <a href="#services">Web Development</a>
+          <a href="#services">E-Commerce</a>
+          <a href="#services">Maintenance</a>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <a href="#work">Portfolio</a>
+          <a href="#about">About</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <a href="#">LinkedIn</a>
+          <a href="#">Instagram</a>
+          <a href="#">GitHub</a>
+          <a href="#">WhatsApp</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 YourName. All rights reserved.</span>
+        <div class="social-links">
+          <a href="#" class="social-link">in</a>
+          <a href="#" class="social-link">ig</a>
+          <a href="#" class="social-link">gh</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+  
+  <script defer src="js/script.js"></script>
+
+</body>
+</html>
