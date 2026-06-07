@@ -27,11 +27,3 @@ css/styles.css: Contains all styles, animations, variables, and responsive media
 
 js/script.js: Handles interactivity, form validation, scroll animations, and external integrations (like booking links and email services).
 
-⚙️ How to Customize
-Personal Information: Open index.html and replace placeholder text (e.g., "YourName") with your actual details.
-
-Email Integration: Update the EmailJS configuration in index.html with your own Public Key and Template ID.
-
-Booking Link: Update the openCal() function in js/script.js to point to your specific calendar booking URL.
-
-Content: Swap the image placeholders in the "Work" and "About" sections with your own professional projects and portraits.
