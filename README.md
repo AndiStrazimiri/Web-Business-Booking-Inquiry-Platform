@@ -27,3 +27,6 @@ css/styles.css: Contains all styles, animations, variables, and responsive media
 
 js/script.js: Handles interactivity, form validation, scroll animations, and external integrations (like booking links and email services).
 
+Proof(can try by your self with real email adress):
+--- On screenshots finde an example of client and owner how reservation/appointments is made and view on owner dashboard automation confirmation on email, google calendar and his platform account.
+
